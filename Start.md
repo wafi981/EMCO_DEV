@@ -23,7 +23,7 @@ set EMCODOCKERREPO=localhost:5000/
 
 cd ..
 
-# Mke-deploy
+# Make-deploy
 
 export BUILD_CAUSE=DEV_TEST
 
@@ -57,7 +57,7 @@ nano .bashrc
 
 export PATH=$PATH:/usr/local/go/bin:/home/ubuntu/work/emco-base/bin/emcoctl
 
-# Chaning config files
+# Changing config files
 
 /home/ubuntu/work/emco-base/examples/single-cluster
 
