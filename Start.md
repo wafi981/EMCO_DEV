@@ -10,6 +10,8 @@ cd emco-base
 
 # Docker Registry
 
+make build-base
+
 docker run -d -p 5000:5000 --name registry registry:2.7
 
 curl localhost:5000
@@ -25,7 +27,7 @@ cd ..
 
 # Make-deploy
 
-make build-base
+
 
 export BUILD_CAUSE=DEV_TEST
 
