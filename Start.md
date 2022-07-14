@@ -25,6 +25,8 @@ cd ..
 
 # Make-deploy
 
+make build-base
+
 export BUILD_CAUSE=DEV_TEST
 
 make deploy
