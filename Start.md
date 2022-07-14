@@ -17,13 +17,8 @@ docker run -d -p 5000:5000 --name registry registry:2.7
 curl localhost:5000
 
 # Set EMCODOCKERREPO 
-cd config
 
-nano config.txt 
-
-set EMCODOCKERREPO=localhost:5000/
-
-cd ..
+export EMCODOCKERREPO=localhost:5000/
 
 # Make-deploy
 
