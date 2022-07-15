@@ -1,20 +1,26 @@
 # SETUP
 
-mkdir work
+``` 
+   mkdir work
 
-cd work
+   cd work
 
-git clone https://gitlab.com/project-emco/core/emco-base.git
+   git clone https://gitlab.com/project-emco/core/emco-base.git
 
-cd emco-base
+   cd emco-base 
+```
+
 
 # Docker Registry
 
 
 
-docker run -d -p 5000:5000 --name registry registry:2.7
+``` 
+    docker run -d -p 5000:5000 --name registry registry:2.7
 
-curl localhost:5000
+    curl localhost:5000
+
+```
 
 # Set EMCODOCKERREPO 
 
