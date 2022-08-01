@@ -39,7 +39,7 @@ make deploy
 
 cd bin/helm
 
- ./emco-base-helm-install.sh -k /home/ubuntu/.kube/config -p disable install  -s 'enableDbAuth=false'
+ ./emco-base-helm-install.sh -k /home/ubuntu/.kube/config -p disable -s 'enableDbAuth=false' install
 
 # Install monitor by passing path to kubeconfig file
 helm install monitor monitor-helm-root-latest.tgz --kubeconfig /home/ubuntu/.kube/config
