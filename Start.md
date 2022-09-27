@@ -41,9 +41,12 @@ cd bin/helm
 
  ./emco-base-helm-install.sh -k /home/ubuntu/.kube/config -p disable -s 'enableDbAuth=false' install
  
+ 
+ 
  # NOTE: Installation scripts does not seem to be working as of now, go over to deployments/helm/emcoBase and run:
  
 helm install --namespace emco --set global.disableDbAuth=true emco ./dist/packages/emco-1.0.0.tgz
+
 
 
 # Install monitor by passing path to kubeconfig file
